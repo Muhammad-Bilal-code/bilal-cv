@@ -86,9 +86,26 @@ span.icon {
 }
 .con-item {
     display: flex;
+    gap: 5px;
 }
 
 
-
+@media only screen and (max-width:767px){
+    .sec.contact-skills {
+        flex-direction: column;
+        gap: 10px;
+    }
+    .inerr-sec11, .inerr-sec1 {
+        width: 100%;
+    }
+    .con-item {
+        display: flex;
+        gap: 8px;
+    }
+    .inerr-sec11 {
+        border-bottom: 1px solid darkgray;
+        padding-bottom: 10px;
+    }
+}
 
 
